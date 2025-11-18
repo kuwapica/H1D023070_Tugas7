@@ -2,6 +2,7 @@
 Nama : Annida Aiska Humairoh <br>
 NIM : H1D023070 <br>
 SHIFT : D (baru), I (awal)
+<br><br>
 
 ## Local Storage
 untuk menggunakan local storage saya memakai shared preferences yang pertama adalah menambah dependensi di `pubspec.yaml` 
@@ -17,6 +18,7 @@ dependencies:
   // yang ini
   shared_preferences: ^2.5.3 
 ```
+<br><br>
 
 ## Routes
 Pada file `login_page.dart` terdapat routes untuk menuju halaman `home_page.dart` jika login berhasil, tetapi akan kembali ke `login_page.dart` jika login tidak berhasil. routesnya ini berada di dalam method `_showdialog`.
@@ -50,6 +52,7 @@ label: const Text(
   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
 ),
 ```
+<br><br>
 
 ## Login
 menyimpan data ketika login dengan shared preferences. data ini akan disimpan di memori HP masing-masing.
@@ -102,6 +105,7 @@ kemudian ada `return Drawer()` yakni widget bawaan flutter yang mmebuat panel me
     );
   }
 ```
+<br><br>
 
 ## Tampilan
 berikut tampilannya:
